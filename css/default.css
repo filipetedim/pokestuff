@@ -1,0 +1,173 @@
+/**********************************************************
+* GENERAL
+**********************************************************/
+html, body
+{
+	margin: 0;
+	color: black;
+	font-family: 'pokemon_gbregular';
+}
+
+/**********************************************************
+* MISC
+**********************************************************/
+.cursor-pointer 
+{
+	cursor: pointer !important;
+	cursor: hand !important;
+}
+
+.cursor-none
+{
+	cursor: none;
+}
+
+.hidden
+{
+	display: none;
+}
+
+/**********************************************************
+* HOVER EFFECT
+**********************************************************/
+.hover-border-medium:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 20%;
+	width: 20%;
+	border-left: 5px solid black;  
+	border-top: 5px solid black;
+}
+
+.hover-border-medium:after {
+	content: "";
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 20%;
+	width: 20%;
+	border-right: 5px solid black;    
+	border-bottom: 5px solid black;
+}
+
+.hover-border-small:before {
+	content: '';
+	position: absolute;
+	left: -3px;
+	top: -3px;
+	height: 30%;
+	width: 30%;
+	border-left: 3px solid black;  
+	border-top: 3px solid black;
+}
+
+.hover-border-small:after {
+	content: "";
+	position: absolute;
+	right: -3px;
+	bottom: -3px;
+	height: 30%;
+	width: 30%;
+	border-right: 3px solid black;    
+	border-bottom: 3px solid black;
+}
+
+.hover-border-small-white:before {
+	content: '';
+	position: absolute;
+	left: -3px;
+	top: -3px;
+	height: 40%;
+	width: 40%;
+	border-left: 2px solid white;  
+	border-top: 2px solid white;
+}
+
+.hover-border-small-white:after {
+	content: "";
+	position: absolute;
+	right: -3px;
+	bottom: -3px;
+	height: 40%;
+	width: 40%;
+	border-right: 2px solid white;    
+	border-bottom: 2px solid white;
+}
+
+/**********************************************************
+* MENU
+**********************************************************/
+.menu
+{
+	background: black;
+}
+
+	.menu-info
+	{
+		right: 5px;
+		top: 5px;
+		font-family: 'pokemon_gbregular';
+		font-size: 10px;
+		color: white;
+	}
+
+	.menu-up
+	{
+		top: 6px;
+		left: 5px;
+		height: 7px;
+		width: 13px;
+		background-image: url('../images/assets/arrow_up_white.png');
+		background-repeat: no-repeat;
+	}
+
+	.menu-down
+	{
+		top: 6px;
+		left: 27px;
+		height: 7px;
+		width: 13px;
+		background-image: url('../images/assets/arrow_down_white.png');
+		background-repeat: no-repeat;
+	}
+
+/**********************************************************
+* OBJECTS
+**********************************************************/
+.object > .description
+{
+	display: none;
+}
+
+/**********************************************************
+* NPCS
+**********************************************************/
+.npc
+{
+	-webkit-transition: left 1s, top 1s; /* Safari */
+    transition: left 1s, top 1s;
+}
+
+.npc > .description
+{
+	display: none;
+}
+
+/**********************************************************
+* FLOORS
+**********************************************************/
+.house
+{
+	z-index: 25;
+}
+
+/**********************************************************
+* FLOORS
+**********************************************************/
+.floor-0, .floor-1, .floor-2, .floor-3
+{
+	background-repeat: no-repeat;
+	border: 3px solid black;
+}

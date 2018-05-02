@@ -1,0 +1,46 @@
+/**********************************************************
+* PALLET TOWN
+**********************************************************/
+#pallet-town
+{
+	left: 100px;
+	top: 100px;
+	width: 432px;
+	height: 336px;
+	background-image: url('../images/cities/pallet_town/pallet_town.png');
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#pallet-town div
+{
+	position: absolute;
+}
+
+#pallet-town > .house > div 
+{
+	cursor: default;
+}
+
+/* Player House */
+#player-house .floor-0
+{
+	background-image: url('../images/cities/pallet_town/player_house_1.png');
+}
+
+#player-house .floor-1
+{
+	background-image: url('../images/cities/pallet_town/player_house_2.png');
+}
+
+/* Rival House */
+#rival-house .floor-0
+{
+	background-image: url('../images/cities/pallet_town/rival_house.png');
+}
+
+/* Oak Lab */
+#oak-lab .floor-0
+{
+	background-image: url('../images/cities/pallet_town/oak_lab.png');
+}

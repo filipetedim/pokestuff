@@ -1,0 +1,21 @@
+/**********************************************************
+* PALLET TOWN
+**********************************************************/
+
+/* Girl */
+.pallet-girl > .left 	{ background-image: url('../images/npcs/pallet_town/girl_left.png');	}
+.pallet-girl > .right 	{ background-image: url('../images/npcs/pallet_town/girl_right.png');	}
+.pallet-girl > .up 		{ background-image: url('../images/npcs/pallet_town/girl_up.png');		}
+.pallet-girl > .down	{ background-image: url('../images/npcs/pallet_town/girl_down.png');	}
+
+/* Fat Guy */
+.pallet-fat-guy > .left 	{ background-image: url('../images/npcs/pallet_town/fat_guy_left.png');	}
+.pallet-fat-guy > .right 	{ background-image: url('../images/npcs/pallet_town/fat_guy_right.png');}
+.pallet-fat-guy > .up 		{ background-image: url('../images/npcs/pallet_town/fat_guy_up.png');	}
+.pallet-fat-guy > .down		{ background-image: url('../images/npcs/pallet_town/fat_guy_down.png');	}
+
+/* Scientist - Oak Lab */
+.pallet-scientist > .left 	{ background-image: url('../images/npcs/pallet_town/fat_guy_left.png');	}
+.pallet-scientist > .right 	{ background-image: url('../images/npcs/pallet_town/fat_guy_right.png');}
+.pallet-scientist > .up 	{ background-image: url('../images/npcs/pallet_town/fat_guy_up.png');	}
+.pallet-scientist > .down	{ background-image: url('../images/npcs/pallet_town/fat_guy_down.png');	}
